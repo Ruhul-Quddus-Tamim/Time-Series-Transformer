@@ -1,0 +1,24 @@
+# Ignore Git repository files
+.git
+.gitignore
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore data files
+data/raw/
+data/processed/
+
+# Ignore logs
+src/logs/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore other unnecessary files
+.DS_Store
