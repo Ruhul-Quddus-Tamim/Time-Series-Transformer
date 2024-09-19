@@ -41,7 +41,7 @@ def main():
         ).to(device)
 
         # Load model checkpoint
-        model_load_path = os.path.join(config['paths']['model_save_path'], 'model.pth')
+        model_load_path = os.path.join(config['paths']['model_save_path'], 'best_model.pth')
         checkpoint = torch.load(model_load_path, map_location=device)
         model.load_state_dict(checkpoint['state_dict'])
         logger.info(f"Model loaded from {model_load_path}")
