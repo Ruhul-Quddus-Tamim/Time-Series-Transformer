@@ -24,7 +24,7 @@ def main():
 
         # Load data
         data_loader = CustomDataLoader(config)
-        X_train, y_train, X_test, y_test = data_loader.get_data()
+        X_train, y_train, X_val, y_val, X_test, y_test = data_loader.get_data()
 
         # Create datasets and loaders
         test_dataset = TimeSeriesDataset(X_test, y_test)
