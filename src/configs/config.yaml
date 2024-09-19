@@ -1,0 +1,22 @@
+data:
+  raw_data_path: 'data/raw/PJME_hourly.csv'
+  seq_length: 24
+  target_length: 5
+  train_split: 0.8
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.0001
+  tolerance: 0.05
+  log_level: 'INFO'
+
+model:
+  d_model: 64
+  num_heads: 4
+  num_layers: 2
+  dropout: 0.1
+
+paths:
+  model_save_path: 'models/checkpoints/'
+  log_dir: 'src/logs/'
