@@ -1,5 +1,7 @@
 # Time Series Transformer
 
+Still under development & testing...
+
 # Project Structure:
 ```
 Time-Series-Transformer/
