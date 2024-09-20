@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Data files
+data/processed/
+data/raw/*.csv
+
+# Model checkpoints
+models/checkpoints/
+
+# Virtual environment
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+src/logs/
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Others
+.DS_Store

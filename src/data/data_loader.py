@@ -60,15 +60,19 @@ class DataLoader:
 
     def split_data(self, X, y):
         try:
-            self.logger.info("Splitting data into training and testing sets")
-            train_size = int(self.train_split * len(X))
+            self.logger.info("Splitting data into training, validation, and testing sets")
+            total_size = len(X)
+            train_size = int(self.train_split * total_size)
+            val_size = int(self.val_split * total_size)
             X_train, y_train = X[:train_size], y[:train_size]
-            X_test, y_test = X[train_size:], y[train_size:]
+            X_val, y_val = X[train_size:train_size+val_size], y[train_size:train_size+val_size]
+            X_test, y_test = X[train_size+val_size:], y[train_size+val_size:]
             self.logger.info("Data splitting completed")
-            return X_train, y_train, X_test, y_test
+            return X_train, y_train, X_val, y_val, X_test, y_test
         except Exception as e:
             self.logger.error(f"Error splitting data: {e}")
             raise
+
 
     def get_data(self):
         data = self.load_data()

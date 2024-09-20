@@ -2,7 +2,8 @@ data:
   raw_data_path: 'data/raw/PJME_hourly.csv'
   seq_length: 24
   target_length: 5
-  train_split: 0.8
+  train_split: 0.7
+  val_split: 0.15
 
 training:
   batch_size: 32
