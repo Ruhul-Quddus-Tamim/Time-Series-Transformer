@@ -12,6 +12,7 @@ class DataLoader:
         self.seq_length = config['data']['seq_length']
         self.target_length = config['data']['target_length']
         self.train_split = config['data']['train_split']
+        self.val_split = config['data']['val_split']  # Add this line
         self.scaler = MinMaxScaler(feature_range=(0, 1))
         self.logger = logging.getLogger(__name__)
 
