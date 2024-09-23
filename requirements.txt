@@ -2,6 +2,8 @@ numpy
 pandas
 matplotlib
 torch
+torchvision
+torchaudio
 scikit-learn
 tqdm
 PyYAML
