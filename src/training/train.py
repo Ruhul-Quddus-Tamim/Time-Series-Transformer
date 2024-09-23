@@ -24,7 +24,7 @@ def main():
     logger = logging.getLogger(__name__)
 
     try:
-        # Set device
+        # Set device (MPS for Apple Silicon, CUDA, or CPU)
         if torch.backends.mps.is_available() and torch.backends.mps.is_built():
             device = torch.device("mps")
             logger.info("Using MPS device")
