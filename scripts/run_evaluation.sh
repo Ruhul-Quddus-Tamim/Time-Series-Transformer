@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m src.evaluation.evaluate
+python3 -m src.evaluation.evaluate
