@@ -21,3 +21,4 @@ model:
 paths:
   model_save_path: 'models/checkpoints/'
   log_dir: 'src/logs/'
+  plot_save_path: 'results/plots/'
