@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m src.training.train
+python3 -m src.training.train
