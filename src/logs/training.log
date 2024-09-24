@@ -70,3 +70,50 @@
 2024-09-23 17:51:29,044 - __main__ - INFO - Model loaded from models/checkpoints/best_model.pth
 2024-09-23 17:51:33,406 - __main__ - INFO - Test MSE: 41088.988281, MAE: 122.669197, RMSE: 202.704193, Accuracy: 100.00%
 2024-09-23 17:51:34,232 - __main__ - INFO - Plot saved to results/plots/predictions_plot.png
+2024-09-24 16:13:49,368 - __main__ - INFO - Using MPS device
+2024-09-24 16:13:49,368 - src.data.data_loader - INFO - Loading data from data/raw/PJME_hourly.csv
+2024-09-24 16:13:49,433 - src.data.data_loader - INFO - Data loaded successfully
+2024-09-24 16:13:49,433 - src.data.data_loader - INFO - Starting data preprocessing
+2024-09-24 16:13:49,435 - src.data.data_loader - INFO - Data preprocessing completed
+2024-09-24 16:13:49,435 - src.data.data_loader - INFO - Creating sequences
+2024-09-24 16:13:49,470 - src.data.data_loader - INFO - Sequences created successfully
+2024-09-24 16:13:49,509 - src.data.data_loader - INFO - Splitting data into training, validation, and testing sets
+2024-09-24 16:13:49,509 - src.data.data_loader - INFO - Data splitting completed
+2024-09-24 16:13:49,558 - __main__ - INFO - Model initialized on device: mps
+2024-09-24 16:15:17,204 - __main__ - INFO - Epoch 1/10, Training Loss: 0.004598, MAE: 0.045031, RMSE: 0.056975, R2: 0.754603, Accuracy: 0.6937
+2024-09-24 16:15:23,638 - __main__ - INFO - Epoch 1/10, Validation Loss: 0.000402, MAE: 0.017464, RMSE: 0.019760, R2: 0.976358, Accuracy: 0.9948
+2024-09-24 16:15:23,654 - __main__ - INFO - Model saved at models/checkpoints/best_model.pth
+2024-09-24 16:16:50,865 - __main__ - INFO - Epoch 2/10, Training Loss: 0.000600, MAE: 0.018755, RMSE: 0.024260, R2: 0.967990, Accuracy: 0.9531
+2024-09-24 16:16:57,348 - __main__ - INFO - Epoch 2/10, Validation Loss: 0.000127, MAE: 0.008838, RMSE: 0.010964, R2: 0.992559, Accuracy: 0.9983
+2024-09-24 16:16:57,361 - __main__ - INFO - Model saved at models/checkpoints/best_model.pth
+2024-09-24 16:18:24,631 - __main__ - INFO - Epoch 3/10, Training Loss: 0.000320, MAE: 0.013503, RMSE: 0.017755, R2: 0.982937, Accuracy: 0.9860
+2024-09-24 16:18:30,994 - __main__ - INFO - Epoch 3/10, Validation Loss: 0.000070, MAE: 0.005763, RMSE: 0.008199, R2: 0.995862, Accuracy: 0.9987
+2024-09-24 16:18:31,007 - __main__ - INFO - Model saved at models/checkpoints/best_model.pth
+2024-09-24 16:19:56,017 - __main__ - INFO - Epoch 4/10, Training Loss: 0.000200, MAE: 0.010543, RMSE: 0.014040, R2: 0.989337, Accuracy: 0.9946
+2024-09-24 16:20:01,060 - __main__ - INFO - Epoch 4/10, Validation Loss: 0.000035, MAE: 0.003685, RMSE: 0.005777, R2: 0.997957, Accuracy: 0.9998
+2024-09-24 16:20:01,072 - __main__ - INFO - Model saved at models/checkpoints/best_model.pth
+2024-09-24 16:21:26,227 - __main__ - INFO - Epoch 5/10, Training Loss: 0.000145, MAE: 0.008891, RMSE: 0.011947, R2: 0.992278, Accuracy: 0.9972
+2024-09-24 16:21:31,301 - __main__ - INFO - Epoch 5/10, Validation Loss: 0.000081, MAE: 0.008088, RMSE: 0.008943, R2: 0.995219, Accuracy: 0.9999
+2024-09-24 16:22:55,940 - __main__ - INFO - Epoch 6/10, Training Loss: 0.000112, MAE: 0.007773, RMSE: 0.010536, R2: 0.993996, Accuracy: 0.9984
+2024-09-24 16:23:00,987 - __main__ - INFO - Epoch 6/10, Validation Loss: 0.000046, MAE: 0.004610, RMSE: 0.006598, R2: 0.997324, Accuracy: 0.9999
+2024-09-24 16:24:25,595 - __main__ - INFO - Epoch 7/10, Training Loss: 0.000094, MAE: 0.007070, RMSE: 0.009641, R2: 0.994971, Accuracy: 0.9989
+2024-09-24 16:24:30,631 - __main__ - INFO - Epoch 7/10, Validation Loss: 0.000023, MAE: 0.002952, RMSE: 0.004734, R2: 0.998629, Accuracy: 1.0000
+2024-09-24 16:24:30,643 - __main__ - INFO - Model saved at models/checkpoints/best_model.pth
+2024-09-24 16:25:55,135 - __main__ - INFO - Epoch 8/10, Training Loss: 0.000081, MAE: 0.006541, RMSE: 0.008935, R2: 0.995676, Accuracy: 0.9993
+2024-09-24 16:26:00,292 - __main__ - INFO - Epoch 8/10, Validation Loss: 0.000025, MAE: 0.002945, RMSE: 0.004744, R2: 0.998540, Accuracy: 1.0000
+2024-09-24 16:27:24,471 - __main__ - INFO - Epoch 9/10, Training Loss: 0.000071, MAE: 0.006099, RMSE: 0.008361, R2: 0.996212, Accuracy: 0.9995
+2024-09-24 16:27:29,471 - __main__ - INFO - Epoch 9/10, Validation Loss: 0.000038, MAE: 0.004462, RMSE: 0.005697, R2: 0.997750, Accuracy: 1.0000
+2024-09-24 16:35:11,512 - __main__ - INFO - Epoch 10/10, Training Loss: 0.000063, MAE: 0.005737, RMSE: 0.007900, R2: 0.996617, Accuracy: 0.9996
+2024-09-24 16:35:16,547 - __main__ - INFO - Epoch 10/10, Validation Loss: 0.000023, MAE: 0.003162, RMSE: 0.004523, R2: 0.998623, Accuracy: 1.0000
+2024-09-24 17:11:57,355 - __main__ - INFO - Using MPS device
+2024-09-24 17:11:57,355 - src.data.data_loader - INFO - Loading data from data/raw/PJME_hourly.csv
+2024-09-24 17:11:57,410 - src.data.data_loader - INFO - Data loaded successfully
+2024-09-24 17:11:57,410 - src.data.data_loader - INFO - Starting data preprocessing
+2024-09-24 17:11:57,412 - src.data.data_loader - INFO - Data preprocessing completed
+2024-09-24 17:11:57,412 - src.data.data_loader - INFO - Creating sequences
+2024-09-24 17:11:57,447 - src.data.data_loader - INFO - Sequences created successfully
+2024-09-24 17:11:57,485 - src.data.data_loader - INFO - Splitting data into training, validation, and testing sets
+2024-09-24 17:11:57,485 - src.data.data_loader - INFO - Data splitting completed
+2024-09-24 17:11:57,528 - __main__ - INFO - Model loaded from models/checkpoints/best_model.pth
+2024-09-24 17:12:01,769 - __main__ - INFO - Test MSE: 49874.906250, MAE: 138.090546, RMSE: 223.326904, Accuracy: 99.99%
+2024-09-24 17:12:01,944 - __main__ - INFO - Plot saved to results/plots/predictions_plot.png
