@@ -62,10 +62,9 @@ def main():
 
         # Initialize variables to track best validation loss
         best_val_loss = float('inf')
-        tolerance = config['training']['tolerance']
 
         # Define acceptable error threshold for accuracy
-        epsilon = 0.05  # Adjust this value as needed
+        epsilon = 0.05
 
         # Training loop
         for epoch in range(config['training']['epochs']):
