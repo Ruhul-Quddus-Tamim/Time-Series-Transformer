@@ -1,3 +1,5 @@
+[![Unit Testing](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml/badge.svg)](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml)
+
 # Time Series Transformer
 
 # Citation
