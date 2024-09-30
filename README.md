@@ -1,4 +1,4 @@
-[![Unit Testing](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml/badge.svg)](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml)
+[![Unit Testing](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/Ruhul-Quddus-Tamim/Time-Series-Transformer/actions/workflows/main.yml)
 
 # Time Series Transformer
 Self-attention, the revolutionary concept introduced by the paper [Attention is all you need](https://arxiv.org/abs/1706.03762), is the basis of this foundation model. TimeGPT model is not based on any existing large language model(LLM). Instead, it is independently trained on a vast amount of time series data, and the large transformer model is designed to minimize the forecasting error.
