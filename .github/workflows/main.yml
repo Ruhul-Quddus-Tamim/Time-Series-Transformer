@@ -1,6 +1,6 @@
 # .github/workflows/main.yml
 
-name: CI/CD Pipeline
+name: Unit Testing
 
 on:
   push:
